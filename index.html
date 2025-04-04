@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechConnect</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1>Tech Connect</h1>
+            <ul class="nav-list">
+                <li> <a href="#sobre">Inicio</a></li>
+                <li> <a href="#palestra">Palestrantes</a></li>
+                <li> <a href="#inscricoes">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre" id="sobre">
+            <div class="container-sb">   
+                <p class="text-resumo">Venha conosco neste evento exclusivo que reúne desenvolvedores e designers <br> para explorar as últimas tendências em tecnologia e design. Com palestras <br> inspiradoras, painéis interativos e oportunidades de etworking, o encontro é <br> ideal para profissionais que desejam trocar experiências.</p>
+                <h2 class="data">Nos encontre no dia 04.04.2025,</h2>
+                <h3 class="local">Teatro Jorge Amado</h3> 
+            </div>
+            
+            <aside>
+                <img src="imagens/logo.png" alt="simbolo de tecnologia" class="sobre-img">
+                <h2 class="titulo-home">TechFuture Summit</h2>
+            </aside>
+        </section>
+
+        <section class="palestra" id="palestra">
+            <h2 class="pl-titulo">Conheça um pouco dos nossos palestrantes</h2>
+            
+            <div class="container-h">
+                <div class="container-item1">
+                    <div class="pl-item1">
+                        <img src="imagens/palestrante1.jpg" alt="" class="image-pl1">
+                    </div>
+                    <div class="nome-item1">
+                        <h2 class="nome-txt1">Conrado Schlochauer</h2>
+                    </div>
+                    <div class="bio-pl1">
+                        <p class="bio-resumo1">Empreendedor e ativista da aprendizagem, Conrado Schlochauer é fundador da nōvi e autor do best-seller “Lifelong Learners - o poder do aprendizado contínuo.” Em suas palestras, apresenta perspectivas inovadoras sobre o poder do aprendizado contínuo na vida pessoal e profissional e ajuda organizações a reinventarem sua cultura de aprendizagem.</p>
+                    </div>
+                </div>
+
+                <div class="container-item2">
+                    <div class="pl-item2">
+                        <img src="imagens/palestrante2.jpg" alt="" class="image-pl2">
+                    </div>
+                    <div class="nome-item2">
+                        <h2 class="nome-txt2">Dora Kaufman</h2>
+                    </div>
+                    <div class="bio-pl2">
+                        <p class="bio-resumo2">Precursora de pesquisas e reflexões dos impactos éticos e sociais da inteligência artificial, particularmente nos negócios e no mercado de trabalho. Suas palestras discutem os efeitos das novas tecnologia na economia, nos mercados e nas empresas, apontando oportunidades e desafios – sempre com uma linguagem acessível e conteúdo personalizado e aplicado para o segmento.</p>
+                    </div>
+                </div>
+
+                <div class="container-item3">
+                    <div class="pl-item3">
+                        <img src="imagens/palestrante3.jpg" alt="" class="image-pl3">
+                    </div>
+                    <div class="nome-item3">
+                        <h2 class="nome-txt3">Lisiane Lemos</h2>
+                    </div>
+                    <div class="bio-pl3">
+                        <p class="bio-resumo3">Executiva premiada e conselheira de alto escalão, construiu uma trajetória que une tecnologia, visão de mercado e impacto social. Com passagens por Google e Microsoft, ajudou multinacionais a adotarem novas tecnologias, formarem equipes mais diversas e prepararem talentos para os desafios da economia digital. Sua experiência impulsiona a formação de novas lideranças e o fortalecimento do ecossistema digital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="inscricoes" id="inscricoes">
+            <div class="container-ic">
+                <h2 class="txt-insc">Formulário de inscrição</h2>
+                <div class="formulario">
+                    <form action="envio-email/enviar_email.php" method="POST">
+                        <label for="nome" id="nome" class="nome-fm">Nome Completo</label>
+                        <input type="text" name="nome" id="nome" class="nome-inp" required>
+
+                        <br>
+
+                        <label for="email" id="email" class="email-fm">E-mail</label>
+                        <input type="email" name="email" id="email" class="email-inp" required>
+
+                        <br>
+
+                        <label for="ingresso" class="tipo-ing">Tipo de ingresso</label>
+                        <input type="radio" name="ingresso" value="presencial" class="ing-p" required>Presencial
+                        <input type="radio" name="ingresso" value="online" class="ing-o" required>On-line
+
+                        <br>
+
+                        <label for="termos" class="termo-uso">Termos de uso</label>
+                        <input type="checkbox" name="termos" value="sim" class="termo" required>Sim, aceito os termos
+
+                        <br>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-ct">
+            <h2 class="contato-ft">Contato - (71)99999-9999</h2>
+
+            <h2 class="email-ft">E-mail - techconnect@gmail.com</h2>
+        </div>
+        <div class="logo-txt">
+            <h2 class="logo-ft">Tech Connect</h2>
+        </div>
+    </footer>
+</body>
+</html>
