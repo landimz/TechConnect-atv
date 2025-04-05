@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #131a38;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 27px;
+    letter-spacing: 4px;
+    color: rgb(218, 215, 215);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(218, 215, 215);
+    transition: 0.4s;
+}
+
+a:hover{
+    opacity: 0.7;
+    color: #285fea;
+}
+
+a:active{
+    color: #454649;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 32px;
+    font-size: 20px;
+}
+
+.sobre{
+    padding-top: 360px;
+    background: url(imagens/fundo.png) no-repeat center center;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-home{
+    font-weight: 550;
+    font-size: 30px;
+    color: white;
+}
+
+.text-resumo{
+    font-size: 20px;
+    color: white;
+    padding-left: 80px;
+}
+
+.data{
+    padding-top: 20px;
+    font-size: 22px;
+    color: white;
+    padding-left: 80px;
+}
+
+.local{
+    font-size: 20px;
+    color: white;
+    padding-left: 80px;
+}
+
+.sobre-img{
+    width: 260px;
+    margin-left: 30px;   
+}
+
+aside{
+    height: 330px;
+    margin-left: 180px;
+    margin-top: -120px;
+}
+
+.palestra{
+    background-color: white;
+    height: 900px;
+}
+
+.pl-titulo{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.container-h{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.container-item1, .container-item2, .container-item3{
+    width: 450px;
+    height: 650px;
+}
+
+.pl-item1, .pl-item2, .pl-item3{
+    height: 380px;
+    width: 95%;
+    margin: 0 auto;
+}
+.image-pl1, .image-pl2, .image-pl3{
+    width: 100%;
+    height: 380px;
+    box-shadow: black 0px 0px 5px;
+}
+
+.nome-item1, .nome-item2, .nome-item3{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nome-txt1, .nome-txt2, .nome-txt3{
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.bio-pl1, .bio-pl2, .bio-pl3{
+    width: 95%;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bio-resumo1, .bio-resumo2, .bio-resumo3{
+    font-weight: 500;
+    text-indent: 30px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.inscricoes{
+    background: url(imagens/fundo.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+.container-ic{
+    background-color: rgba(255, 255, 255, 0.529);
+    height: 410px;
+    width: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+}
+
+.formulario{
+    margin-top: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-insc{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nome-fm, .email-fm, .tipo-ing, .termo-uso{
+    margin-left: 10px;
+}
+
+.nome-inp, .email-inp{
+    width: 280px;
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.ing-p, .ing-o, .termo{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+button{
+    background-color: #859ad8;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: black 0px 0px 2px;
+    margin-top: 40px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(49, 48, 48);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+.footer-ct{
+    color: white;
+    font-size: 13px;
+
+}
+
+.logo-txt{
+    color: white;
+    font-size: 18px;
+    margin-left: 500px;
+}
+
+.contato-ft, .email-ft, .logo-ft{
+    font-weight: 100;
+}
